@@ -26,8 +26,15 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <Link to="/" className="text-2xl font-bold text-gray-900">
-              <span className="text-emerald-500">Errand</span>Sort
+            <Link to="/" className="flex items-center gap-2 text-2xl font-bold text-gray-900">
+              <img
+                src="/errandsortlogo.png"
+                alt="ErrandSort logo"
+                className="h-8 w-8"
+              />
+              <span>
+                <span className="text-emerald-500">Errand</span>Sort
+              </span>
             </Link>
           </div>
 
